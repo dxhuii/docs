@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vitepress",
     "build": "vitepress build",
-    "preview": "vitepress preview",
+    "preview": "vitepress preview --port 8080",
     "preinstall": "npx only-allow pnpm",
     "type": "vue-tsc --noEmit"
   },
